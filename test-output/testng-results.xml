@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-15T20:44:14 IST" name="Default suite" finished-at="2024-08-15T20:45:00 IST" duration-ms="45480">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@43df23d3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-15T20:44:14 IST" name="Default test" finished-at="2024-08-15T20:45:00 IST" duration-ms="45480">
+      <class name="parallel.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.TestRunner@43df23d3]" started-at="2024-08-15T20:44:14 IST" name="setUpClass" finished-at="2024-08-15T20:44:15 IST" duration-ms="318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f667fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@43df23d3]" started-at="2024-08-15T20:44:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-15T20:44:52 IST" duration-ms="37132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new contact"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create New task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@43df23d3]" started-at="2024-08-15T20:44:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-15T20:44:39 IST" duration-ms="24604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Test Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.TestRunner@43df23d3]" started-at="2024-08-15T20:44:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-15T20:45:00 IST" duration-ms="45079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new task and save"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create New task"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.TestRunner@43df23d3]" started-at="2024-08-15T20:45:00 IST" name="tearDownClass" finished-at="2024-08-15T20:45:00 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
