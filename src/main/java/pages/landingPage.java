@@ -11,7 +11,7 @@ public landingPage(WebDriver driver) {
 }
 public newTaskPage createNewTask() {
 	try {
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

@@ -17,7 +17,7 @@ public void enterTitle(String title) {
 }
 public void ExtendDropDown(String autoextend) {
 	Select select=new Select(driver.findElement(By.xpath("//select[@name='auto_extend']")));
-	select.selectByVisibleText(autoextend);
+	select.selectByVisibleText(autoext);
 }
 public void completion(String value) {
 	driver.findElement(By.cssSelector("#completion")).sendKeys(value);
