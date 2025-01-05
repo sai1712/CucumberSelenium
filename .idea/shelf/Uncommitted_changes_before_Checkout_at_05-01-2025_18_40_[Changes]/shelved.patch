@@ -1,0 +1,19 @@
+Index: src/main/java/pages/newTaskPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pages;\r\n\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.JavascriptExecutor;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.ui.Select;\r\n\r\npublic class newTaskPage {\r\n\tprivate WebDriver driver;\r\npublic newTaskPage(WebDriver driver) {\r\n\tthis.driver=driver;\r\n}\r\n\r\npublic void enterTitle(String title) {\r\n\tdriver.findElement(By.cssSelector(\"#title\")).sendKeys(title);\r\n}\r\npublic void ExtendDropDown(String autoextend) {\r\n\tSelect select=new Select(driver.findElement(By.xpath(\"//select[@name='auto_extend']\")));\r\n\tselect.selectByVisibleText(autoext);\r\n}\r\npublic void completion(String value) {\r\n\tdriver.findElement(By.cssSelector(\"#completion\")).sendKeys(value);\r\n}\r\npublic void clickSave() {\r\nWebElement element=driver.findElement(By.xpath(\"//body[1]/table[2]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/fieldset[1]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]\"));\r\nelement.click();\r\n\r\n}\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/pages/newTaskPage.java b/src/main/java/pages/newTaskPage.java
+--- a/src/main/java/pages/newTaskPage.java	(revision 852b063cd6a515774cb94e71069036aa341de291)
++++ b/src/main/java/pages/newTaskPage.java	(date 1736082614941)
+@@ -17,7 +17,7 @@
+ }
+ public void ExtendDropDown(String autoextend) {
+ 	Select select=new Select(driver.findElement(By.xpath("//select[@name='auto_extend']")));
+-	select.selectByVisibleText(autoext);
++	select.selectByVisibleText(autoextend);
+ }
+ public void completion(String value) {
+ 	driver.findElement(By.cssSelector("#completion")).sendKeys(value);
