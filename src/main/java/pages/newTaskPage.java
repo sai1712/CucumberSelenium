@@ -20,7 +20,7 @@ public void ExtendDropDown(String autoextend) {
 	select.selectByVisibleText(autoextend);
 }
 public void completion(String value) {
-	driver.findElement(By.cssSelector("#completion")).sendKeys(value);
+	driver.findElement(By.cssSelector("#comple")).sendKeys(value);
 }
 public void clickSave() {
 WebElement element=driver.findElement(By.xpath("//body[1]/table[2]/tbody[1]/tr[1]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/fieldset[1]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]"));
